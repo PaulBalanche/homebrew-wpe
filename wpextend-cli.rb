@@ -7,8 +7,8 @@ class WpextendCli < Formula
   
     def install
       bin.install 'wpextend.sh'
-      install Dir["include"]    
-      install Dir["docker"]
+      bin.install Dir["include"]    
+      bin.install Dir["docker"]
     end
   end
   
