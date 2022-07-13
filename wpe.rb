@@ -1,4 +1,4 @@
-class wpe < Formula
+class Wpe < Formula
     desc ""
     homepage ""
     url "https://github.com/PaulBalanche/homebrew-wpe/archive/refs/heads/master.zip"
