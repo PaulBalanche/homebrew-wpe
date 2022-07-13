@@ -1,11 +1,11 @@
 #!/bin/bash
-source wpe-cli/inc/library.sh
+source cli/inc/library.sh
 
 CONFIG_FILE=$PWD/.config
 test -f $CONFIG_FILE || touch $CONFIG_FILE
 source $CONFIG_FILE
 
-COMMANDS_PATH="wpe-cli/commands"
+COMMANDS_PATH="cli/commands"
 
 if [ -f $COMMANDS_PATH/$1/index.sh ]
 then
