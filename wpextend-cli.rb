@@ -6,7 +6,7 @@ class WpextendCli < Formula
   license "MIT"
   
     def install
-      bin.install 'gitstart'
+      bin.install 'wpextend-cli'
     end
   end
   
