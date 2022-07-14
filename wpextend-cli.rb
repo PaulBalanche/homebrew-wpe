@@ -6,9 +6,8 @@ class WpextendCli < Formula
   license "MIT"
   
     def install
-      bin.install 'wpextend.sh'
-      libexec.install Dir["include"]
-      bin.install_symlink Dir["include"]
+      libexec.install Dir["*"]
+      bin.write_exec_script libexec/"wpextend.sh"
     end
   end
   
